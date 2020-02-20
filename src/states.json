@@ -1,0 +1,50 @@
+{
+    "0": {
+        "text": "The world is getting happier and healthier",
+        "series": "1989-1993",
+        "content": "At the end of the cold war, the western bloc countries were the happiest, and also the most satisfied with life. The eastern bloc was lower on both scales, probably due to political and economical instability."
+    },
+    "1": {
+        "text": "The world is getting happier healthier",
+        "series": "1999-2004",
+        "content": "Throughout the 00s, the rest of the world starts to catch up; happiness increases faster than satisfaction. A noteable example is Nigeria, the happiest developing country."
+    },
+    "2": {
+        "text": "The world is getting happier healthier",
+        "series":"2010-2014",
+        "content": "Today, most nations are scoring high in both happiness and satisfaction, with the notable exception of the arab countries. It is not unreasonable to assume that his is due to the great instability in the region during the last 20 years."
+    },
+    "3": {
+        "text" : "As trust wanes, willingness to fight increases",
+        "series": "1989-1993",
+        "content": "In the early 90s, trust in others was relatively high in the west, unlike the rest of the world. Willingness to fight for one's country is notably high in former soviet states."
+    },
+    "4": {
+        "text" : "As trust wanes, willingness to fight increases",
+        "series": "1999-2004",
+        "content": "In the 00s, trust seems to be lower, though this could be explained by the lack of data from many western countries. As countries cluster along the x-axis, we can see that willingness to fight increases."
+    },
+    "5": {
+        "text" : "As trust wanes, willingness to fight increases",
+        "series": "2010-2014",
+        "content": "As we move on to the 2010s, the cluster does not move much, but the positions of individual countries change. A noteable example is latin america, where most countries rank very low on the scale."
+    },
+    "6": {
+        "text": "Finances influence satisfaction, and both are getting better",
+        "series": "1989-1993",
+        "content": "placeholder"
+    },
+    "7": {
+        "text": "Finances influence satisfaction, and both are getting better",
+        "series": "1999-2004",
+        "content": "placeholder"
+    },
+    "8": {
+        "text": "Finances influence satisfaction, and both are getting better",
+        "series": "2010-2014",
+        "content": "placeholder"
+    }
+
+
+
+}
