@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f2f20db.chunk.css",
-    "main.js": "/static/js/main.42b5228d.chunk.js",
-    "main.js.map": "/static/js/main.42b5228d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5c48ffc2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5c48ffc2.js.map",
-    "static/js/2.f252543e.chunk.js": "/static/js/2.f252543e.chunk.js",
-    "static/js/2.f252543e.chunk.js.map": "/static/js/2.f252543e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a8cc5f5a407b1adf9d4bd2862193e659.js": "/precache-manifest.a8cc5f5a407b1adf9d4bd2862193e659.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f2f20db.chunk.css.map": "/static/css/main.5f2f20db.chunk.css.map",
-    "static/js/2.f252543e.chunk.js.LICENSE": "/static/js/2.f252543e.chunk.js.LICENSE",
-    "static/media/data.csv": "/static/media/data.4ec5f055.csv",
-    "static/media/gdp_data.csv": "/static/media/gdp_data.e82212c1.csv",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-    "static/media/world.geojson": "/static/media/world.025403f0.geojson"
+    "main.css": "/ivis20-proj2/static/css/main.5f2f20db.chunk.css",
+    "main.js": "/ivis20-proj2/static/js/main.4f0f8d4e.chunk.js",
+    "main.js.map": "/ivis20-proj2/static/js/main.4f0f8d4e.chunk.js.map",
+    "runtime-main.js": "/ivis20-proj2/static/js/runtime-main.e86f010b.js",
+    "runtime-main.js.map": "/ivis20-proj2/static/js/runtime-main.e86f010b.js.map",
+    "static/js/2.f252543e.chunk.js": "/ivis20-proj2/static/js/2.f252543e.chunk.js",
+    "static/js/2.f252543e.chunk.js.map": "/ivis20-proj2/static/js/2.f252543e.chunk.js.map",
+    "index.html": "/ivis20-proj2/index.html",
+    "precache-manifest.9052485f3554e335546dac49979c50fc.js": "/ivis20-proj2/precache-manifest.9052485f3554e335546dac49979c50fc.js",
+    "service-worker.js": "/ivis20-proj2/service-worker.js",
+    "static/css/main.5f2f20db.chunk.css.map": "/ivis20-proj2/static/css/main.5f2f20db.chunk.css.map",
+    "static/js/2.f252543e.chunk.js.LICENSE": "/ivis20-proj2/static/js/2.f252543e.chunk.js.LICENSE",
+    "static/media/data.csv": "/ivis20-proj2/static/media/data.4ec5f055.csv",
+    "static/media/gdp_data.csv": "/ivis20-proj2/static/media/gdp_data.e82212c1.csv",
+    "static/media/logo.svg": "/ivis20-proj2/static/media/logo.5d5d9eef.svg",
+    "static/media/world.geojson": "/ivis20-proj2/static/media/world.025403f0.geojson"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c48ffc2.js",
+    "static/js/runtime-main.e86f010b.js",
     "static/js/2.f252543e.chunk.js",
     "static/css/main.5f2f20db.chunk.css",
-    "static/js/main.42b5228d.chunk.js"
+    "static/js/main.4f0f8d4e.chunk.js"
   ]
 }
