@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "lunkers.github.io/ivis20-proj2/static/css/main.5f2f20db.chunk.css",
+    "main.js": "lunkers.github.io/ivis20-proj2/static/js/main.76a8c69d.chunk.js",
+    "main.js.map": "lunkers.github.io/ivis20-proj2/static/js/main.76a8c69d.chunk.js.map",
+    "runtime-main.js": "lunkers.github.io/ivis20-proj2/static/js/runtime-main.d09f0c55.js",
+    "runtime-main.js.map": "lunkers.github.io/ivis20-proj2/static/js/runtime-main.d09f0c55.js.map",
+    "static/js/2.f252543e.chunk.js": "lunkers.github.io/ivis20-proj2/static/js/2.f252543e.chunk.js",
+    "static/js/2.f252543e.chunk.js.map": "lunkers.github.io/ivis20-proj2/static/js/2.f252543e.chunk.js.map",
+    "index.html": "lunkers.github.io/ivis20-proj2/index.html",
+    "precache-manifest.61ea103dfe42a5d49d26a1ec7c1f9c5b.js": "lunkers.github.io/ivis20-proj2/precache-manifest.61ea103dfe42a5d49d26a1ec7c1f9c5b.js",
+    "service-worker.js": "lunkers.github.io/ivis20-proj2/service-worker.js",
+    "static/css/main.5f2f20db.chunk.css.map": "lunkers.github.io/ivis20-proj2/static/css/main.5f2f20db.chunk.css.map",
+    "static/js/2.f252543e.chunk.js.LICENSE": "lunkers.github.io/ivis20-proj2/static/js/2.f252543e.chunk.js.LICENSE",
+    "static/media/data.csv": "lunkers.github.io/ivis20-proj2/static/media/data.4ec5f055.csv",
+    "static/media/gdp_data.csv": "lunkers.github.io/ivis20-proj2/static/media/gdp_data.e82212c1.csv",
+    "static/media/logo.svg": "lunkers.github.io/ivis20-proj2/static/media/logo.5d5d9eef.svg",
+    "static/media/world.geojson": "lunkers.github.io/ivis20-proj2/static/media/world.025403f0.geojson"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d09f0c55.js",
+    "static/js/2.f252543e.chunk.js",
+    "static/css/main.5f2f20db.chunk.css",
+    "static/js/main.76a8c69d.chunk.js"
+  ]
+}
