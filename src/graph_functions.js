@@ -2,9 +2,11 @@ import * as d3 from 'd3'
 import d3Tip from 'd3-tip'
 import * as d3Geo from 'd3-geo';
 import worldData from './world.geojson'
+import { series } from 'async';
 
 
-export const create_scatter = (parent, data, xScale, yScale, xVar, yVar,  colorScale) => {
+export const create_scatter = (parent, data, xScale, yScale, xVar, yVar,  colorScale, series) => {
+    let clicked = ""
     // Setup tooltips
     const tip = d3Tip()
         .attr("class", "d3-tooltip")
@@ -16,6 +18,8 @@ export const create_scatter = (parent, data, xScale, yScale, xVar, yVar,  colorS
         .data(data)
         .join(
             enter => enter.append('circle')
+                .attr("stroke", "black")
+                .attr("class", "plot-point")
                 .on('mouseover', tip.show)
                 .on('mouseout', tip.hide)
         )
@@ -27,6 +31,7 @@ export const create_scatter = (parent, data, xScale, yScale, xVar, yVar,  colorS
         .attr('r', 10)
         .attr('id', d => d.country)
         .attr('fill', d => colorScale(d.CulZon))
+        .style('opacity', 1);
 
     // TODO: add legend with filtering
 
@@ -64,6 +69,9 @@ export const create_scatter = (parent, data, xScale, yScale, xVar, yVar,  colorS
                 case "PerHea": {
                     return "Perceived Health"
                 }
+                case "SVI_short": {
+                    return "Secular value index"
+                }
             }
         });
 
@@ -87,22 +95,59 @@ export const create_scatter = (parent, data, xScale, yScale, xVar, yVar,  colorS
                     case "FinSat": {
                         return "Financial Satisfaction"
                     }
+                    case "IndEmp2": {
+                        return "Individual Empowerment"
+                    }
                 }
             });
 
+    //remove old legend
+    parent.selectAll(".legend").remove();
+
     //setup legend
-    const legend = parent.selectAll(".legend");
-}
+    const legend = parent.selectAll(".legend")
+    .data(colorScale.domain())
+    .join(
+        enter => enter.append("g")
+        .attr("class", "legend")
+        .attr("transform", (d, i) => "translate(700," + (100 +(i * 25 )) + ")"),
+        
+    )
 
-export const create_geo = (parent, data, colorScale) => {
-    parent.selectAll("svg > *").remove();
-    console.log("running geo")
-    const projection = d3.geoMercator();
+    legend.append("circle")
+    .attr("r", 10)
+    .style("stroke", "black")
+    .style("fill", d => colorScale(d))
+    .on('click', d => {
+        d3.selectAll('.plot-point').style('opacity', 1)
 
-    const geoGenerator = d3Geo.geoPath(projection)
-    console.log(geoGenerator("Sweden"))
-    //console.log(parent)
-    const  graph = parent.selectAll("path").data(data)
-    .join("path").attr("fill", "green").attr("d", geoGenerator(worldData) )
-    console.log(graph)
+        if(clicked !== d) {
+            d3.selectAll('.plot-point').filter(e => e.CulZon !== d).style('opacity', 0.1)
+            clicked = d 
+        }
+        else {
+            clicked = d
+        }
+    })
+    
+    legend.append("text")
+      .attr("x", 20)
+      .attr("y", 0)
+      .attr("dy", ".35em")
+      .style("fill", "white")
+      .style("text-anchor", "start")
+      .text(d=> d );
+
+    //remove old time series text
+    parent.selectAll('.series').remove()
+
+    //append time series text
+    const seriesText = parent.append("text")
+    .attr('class', 'series')
+    .attr('x', 500)
+    .attr('y', 600)
+    .text(series)
+    .style('fill', 'white')
+    .style('opacity', 0.5)
+
 }

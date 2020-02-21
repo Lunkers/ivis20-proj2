@@ -2,47 +2,62 @@
     "0": {
         "text": "The world is getting happier and healthier",
         "series": "1989-1993",
-        "content": "At the end of the cold war, the western bloc countries were the happiest, and also the most satisfied with life. The eastern bloc was lower on both scales, probably due to political and economical instability."
+        "content": "At the end of the cold war, the western bloc countries were the happiest and helathiest. The eastern bloc was lower on both scales, probably due to political and economical instability."
     },
     "1": {
         "text": "The world is getting happier healthier",
         "series": "1999-2004",
-        "content": "Throughout the 00s, the rest of the world starts to catch up; happiness increases faster than satisfaction. A noteable example is Nigeria, the happiest developing country."
+        "content": "In the 00s, the rest of the world starts to catch up to the west. Perceived health seems to improve more than happiness."
     },
     "2": {
         "text": "The world is getting happier healthier",
         "series":"2010-2014",
-        "content": "Today, most nations are scoring high in both happiness and satisfaction, with the notable exception of the arab countries. It is not unreasonable to assume that his is due to the great instability in the region during the last 20 years."
+        "content": "Today, most nations score well on both metrics, with the notable exception of Egypt. It is not unreasonable to assume that the instability in the country since the arab spring might be one reason for this."
     },
     "3": {
         "text" : "As trust wanes, willingness to fight increases",
         "series": "1989-1993",
-        "content": "In the early 90s, trust in others was relatively high in the west, unlike the rest of the world. Willingness to fight for one's country is notably high in former soviet states."
+        "content": "In the early 90s, trust in others was relatively high in the west, unlike the rest of the world. Willingness to fight for one's country is notably high in former soviet states and the nordic countries."
     },
     "4": {
         "text" : "As trust wanes, willingness to fight increases",
         "series": "1999-2004",
-        "content": "In the 00s, trust seems to be lower, though this could be explained by the lack of data from many western countries. As countries cluster along the x-axis, we can see that willingness to fight increases."
+        "content": "In the 00s, trust seems to be lower, though this could be explained by the lack of data from many western countries. Increased willingness to fight seems to be a global trend."
     },
     "5": {
         "text" : "As trust wanes, willingness to fight increases",
         "series": "2010-2014",
-        "content": "As we move on to the 2010s, the cluster does not move much, but the positions of individual countries change. A noteable example is latin america, where most countries rank very low on the scale."
+        "content": "As we move on to the 2010s, the cluster does not move much, but the positions of individual countries change. Trust is low in latin america and subsaharan africa."
     },
     "6": {
-        "text": "Finances influence satisfaction, and both are getting better",
+        "text": "Cash rules everything around me",
         "series": "1989-1993",
-        "content": "placeholder"
+        "content": "We see a strong correlation between financial an general satisfaction in life; though values vary, most countries fit on a straight line."
     },
     "7": {
-        "text": "Finances influence satisfaction, and both are getting better",
+        "text": "Cash rules everything around me",
         "series": "1999-2004",
-        "content": "placeholder"
+        "content": "In the 00s , financial satisfaction lowers across the globe (once again, the reformed west is missing), but the spread still remains."
     },
     "8": {
-        "text": "Finances influence satisfaction, and both are getting better",
+        "text": "Cash rules everything around me",
         "series": "2010-2014",
-        "content": "placeholder"
+        "content": "In the 2010s, we see that the differences in financial satisfaction reduce; this shows that developing countries are starting to cath up"
+    },
+    "9": {
+        "text": "Secular individuals",
+        "series": "1994-1999",
+        "content": "Societies with stronger individual empowerment seem to adopt more secular values. Sweden leads the pack, with other countries in the reformed west closely behind."
+    },
+    "10": {
+        "text": "Secular individuals",
+        "series": "1999-2004",
+        "content": "As time moves on, we notice that South Korea moves further towards individual empowerment and secularization, as is the orthodox east."
+    },
+    "11": {
+        "text": "Secular individuals",
+        "series": "2010-2014",
+        "content": "In the last decade, Individual empowerment has lowered in the sinic east. We can also observe an increase in religious values in the islamic and orthodox east."
     }
 
 

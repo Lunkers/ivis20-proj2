@@ -14,9 +14,12 @@ export function GraphContainer({ data, series, var1, var2, stateNum }) {
                 } else if (stateNum < 6){
                     var1 = "WilFig"
                     var2 = "StaTru"
-                } else {
+                } else if (stateNum < 9) {
                     var1="LifSat";
                     var2="FinSat"
+                } else {
+                    var1 = "SVI_short"
+                    var2 = "IndEmp2"
                 }
 
                 //filter data, and remove countries without any.
@@ -39,7 +42,7 @@ export function GraphContainer({ data, series, var1, var2, stateNum }) {
                 const svg = d3.select(d3Container.current);
                 //draw graph
 
-                create_scatter(svg, fData, xScale, yScale, var1, var2, colorScale)
+                create_scatter(svg, fData, xScale, yScale, var1, var2, colorScale, series)
             }
         }, [data, d3Container.current, series, stateNum])
 

@@ -14,12 +14,21 @@ function App() {
 
   //load wvs data
   useEffect(() => {
-    console.log("recalculating colors")
     d3.csv(data).then(read => {
       setWvsData(read)
     })
   }, [])
-  
+
+  //load GDP data
+  /*useEffect(() => {
+    if(wvsData) {
+      d3.csv(gdpData).then(read => {
+        console.log(read)
+        wvsData.map(d => d.gdp = read[d.country][d.year])
+      }).then(console.lod(wvsData))
+    }
+  }, [wvsData])*/
+  document.title = "WVS Data visualization"
   return (
     <div className="App">
       <header className="App-header">
