@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8319bab94234d6a22a43fde3c0964e9",
+    "revision": "8997f3caec08ccfcbe7dbd08c5a5440c",
     "url": "/ivis20-proj2/index.html"
   },
   {
-    "revision": "7f5bd917dbc461888b40",
+    "revision": "25d119664b42df7daecc",
     "url": "/ivis20-proj2/static/css/main.5f2f20db.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivis20-proj2/static/js/2.897a1ad2.chunk.js.LICENSE"
   },
   {
-    "revision": "7f5bd917dbc461888b40",
-    "url": "/ivis20-proj2/static/js/main.31d88d59.chunk.js"
+    "revision": "25d119664b42df7daecc",
+    "url": "/ivis20-proj2/static/js/main.2770ef73.chunk.js"
   },
   {
     "revision": "aa2bd2bae7f239576e51",

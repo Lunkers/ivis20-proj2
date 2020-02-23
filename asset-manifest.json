@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ivis20-proj2/static/css/main.5f2f20db.chunk.css",
-    "main.js": "/ivis20-proj2/static/js/main.31d88d59.chunk.js",
-    "main.js.map": "/ivis20-proj2/static/js/main.31d88d59.chunk.js.map",
+    "main.js": "/ivis20-proj2/static/js/main.2770ef73.chunk.js",
+    "main.js.map": "/ivis20-proj2/static/js/main.2770ef73.chunk.js.map",
     "runtime-main.js": "/ivis20-proj2/static/js/runtime-main.e86f010b.js",
     "runtime-main.js.map": "/ivis20-proj2/static/js/runtime-main.e86f010b.js.map",
     "static/js/2.897a1ad2.chunk.js": "/ivis20-proj2/static/js/2.897a1ad2.chunk.js",
     "static/js/2.897a1ad2.chunk.js.map": "/ivis20-proj2/static/js/2.897a1ad2.chunk.js.map",
     "index.html": "/ivis20-proj2/index.html",
-    "precache-manifest.53d6fadd540cfc64a4d8787ef4198c0b.js": "/ivis20-proj2/precache-manifest.53d6fadd540cfc64a4d8787ef4198c0b.js",
+    "precache-manifest.01620dea8ab16e7486d78f2e2ddd8928.js": "/ivis20-proj2/precache-manifest.01620dea8ab16e7486d78f2e2ddd8928.js",
     "service-worker.js": "/ivis20-proj2/service-worker.js",
     "static/css/main.5f2f20db.chunk.css.map": "/ivis20-proj2/static/css/main.5f2f20db.chunk.css.map",
     "static/js/2.897a1ad2.chunk.js.LICENSE": "/ivis20-proj2/static/js/2.897a1ad2.chunk.js.LICENSE",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.e86f010b.js",
     "static/js/2.897a1ad2.chunk.js",
     "static/css/main.5f2f20db.chunk.css",
-    "static/js/main.31d88d59.chunk.js"
+    "static/js/main.2770ef73.chunk.js"
   ]
 }
